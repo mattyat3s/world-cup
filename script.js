@@ -2,7 +2,7 @@
 const api = "https://raw.githubusercontent.com/openfootball/world-cup.json/master/2018/worldcup.json";
 
 // sorts the teams by points and then by conceeded
-function compare(a,b) {
+function compare(a, b) {
   return a.points - b.points || a.conceeded - b.conceeded;
 }
 
